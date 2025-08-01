@@ -11,7 +11,7 @@ jobs:
       - name: "📥 Check-out"
         uses: actions/checkout@v4
       - name: "🏗️ Compile paper"
-        uses: xu-cheng/latex-action@v3
+        uses: xu-cheng/latex-action@v4
         with:
           working_directory: paper
           root_file: emnlp2021.tex
@@ -23,7 +23,7 @@ jobs:
       - name: "📥 Check-out"
         uses: actions/checkout@v4
       - name: "🏗️ Compile talk"
-        uses: xu-cheng/latex-action@v3
+        uses: xu-cheng/latex-action@v4
         with:
           working_directory: talk
           root_file: talk.tex
@@ -34,7 +34,7 @@ jobs:
       - name: "📥 Check-out"
         uses: actions/checkout@v4
       - name: "🏗️ Compile short talk"
-        uses: xu-cheng/latex-action@v3
+        uses: xu-cheng/latex-action@v4
         with:
           working_directory: talk
           root_file: short-talk.tex
